@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log IN</title>
+    <style>
+        body {
+            background-color: skyblue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("background.jpg");
+        }
+
+        .container {
+            /* border: 2px solid yellowgreen; */
+            width: 487px;
+            height: 338px;
+            background-color: rgba(0, 5, 5, 0.055);
+            display: block;
+            margin: 50px 50px;
+            margin-top: 10rem;
+            opacity: .8;
+        }
+
+        .container a {
+            color: rgb(121, 38, 24);
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            font-style: italic;
+            font-weight: bold;
+            margin: 0px 5px;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .container a:hover {
+            color: paleturquoise;
+        }
+
+        .form_group input {
+            display: block;
+            margin: 20px 0px;
+            width: 80%;
+            padding: 10px;
+            border: 1px thin blueviolet;
+            font-size: 15px;
+            background-color: transparent;
+            color: whitesmoke;
+            text-decoration: none;
+            border-radius: 20px;
+            text-decoration: none;
+            cursor: pointer;
+            text-decoration-line: none;
+        }
+
+        .form_group input:hover {
+            color: whitesmoke;
+            text-align: right;
+            border-style: outset;
+            border: paleturquoise;
+
+        }
+
+        .submit {
+            display: block;
+            margin: 50px 100px;
+            padding: 10px;
+            width: 35%;
+            border: 2px solid tomato;
+            border-radius: 25px;
+            background-color: transparent;
+            color: tomato;
+            font-size: 1.3rem;
+        }
+
+        .submit:hover {
+            /* border-color: rgba(21, 168, 154, 0.726); */
+            border: 3px solid rgba(21, 168, 154, 0.726);
+            color: rgb(247, 255, 250);
+            background-color: rgba(27, 138, 119, 0.459);
+            font-weight: bolder;
+            font-style: oblique;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a href="www.erp.com">Enterprises Resource Planning</a>
+        <form action="">
+            <div class="form_group">
+                <input type="text" name="" id="" placeholder="User Name">
+            </div>
+            <div class="form_group">
+                <input type="text" placeholder="Password">
+            </div>
+            <button class="submit">LogIN</button>
+        </form>
+    </div>
+</body>
+
+</html>
